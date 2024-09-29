@@ -1,0 +1,164 @@
+{
+  "plants": [
+    {
+      "id": 1,
+      "name": "Aloe Vera",
+      "category": "Succulent",
+      "price": 15.99,
+      "stock": 50,
+      "description": "A hardy succulent known for its healing properties.",
+      "sunlight": "Bright indirect light",
+      "water_frequency": "Every 2-3 weeks"
+    },
+    {
+      "id": 2,
+      "name": "Fiddle Leaf Fig",
+      "category": "Indoor",
+      "price": 39.99,
+      "stock": 20,
+      "description": "A popular indoor tree with large, glossy leaves.",
+      "sunlight": "Bright, indirect light",
+      "water_frequency": "Once a week"
+    },
+    {
+      "id": 3,
+      "name": "Rosemary",
+      "category": "Herb",
+      "price": 9.99,
+      "stock": 30,
+      "description": "A fragrant herb often used in cooking.",
+      "sunlight": "Full sun",
+      "water_frequency": "Every 1-2 weeks"
+    },
+    {
+      "id": 4,
+      "name": "Spider Plant",
+      "category": "Indoor",
+      "price": 12.99,
+      "stock": 40,
+      "description": "A resilient houseplant that produces 'pups'.",
+      "sunlight": "Bright, indirect light",
+      "water_frequency": "Once every 1-2 weeks"
+    },
+    {
+      "id": 5,
+      "name": "Basil",
+      "category": "Herb",
+      "price": 7.99,
+      "stock": 25,
+      "description": "A fragrant herb commonly used in Italian cuisine.",
+      "sunlight": "Full sun",
+      "water_frequency": "Every 1-2 weeks"
+    },
+    {
+      "id": 6,
+      "name": "Pothos",
+      "category": "Indoor",
+      "price": 15.49,
+      "stock": 35,
+      "description": "A hardy vine known for its air-purifying qualities.",
+      "sunlight": "Low to bright indirect light",
+      "water_frequency": "Once every 1-2 weeks"
+    },
+    {
+      "id": 7,
+      "name": "Snake Plant",
+      "category": "Indoor",
+      "price": 19.99,
+      "stock": 15,
+      "description": "An easy-to-care-for plant that thrives on neglect.",
+      "sunlight": "Low to bright indirect light",
+      "water_frequency": "Every 2-3 weeks"
+    },
+    {
+      "id": 8,
+      "name": "Peace Lily",
+      "category": "Indoor",
+      "price": 25.0,
+      "stock": 10,
+      "description": "A beautiful flowering plant known for its air-purifying abilities.",
+      "sunlight": "Low to medium, indirect light",
+      "water_frequency": "Once a week"
+    },
+    {
+      "id": 9,
+      "name": "ZZ Plant",
+      "category": "Indoor",
+      "price": 27.99,
+      "stock": 18,
+      "description": "A hardy plant that can survive low light and drought.",
+      "sunlight": "Low to bright indirect light",
+      "water_frequency": "Every 2-3 weeks"
+    },
+    {
+      "id": 10,
+      "name": "Dracaena",
+      "category": "Indoor",
+      "price": 32.99,
+      "stock": 12,
+      "description": "A tall indoor plant with striking foliage.",
+      "sunlight": "Indirect light",
+      "water_frequency": "Every 2 weeks"
+    }
+  ],
+  "staff": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "role": "Manager",
+      "experience_years": 5,
+      "email": "alice.johnson@nursery.com",
+      "phone": "555-1234"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "role": "Horticulturist",
+      "experience_years": 8,
+      "email": "bob.smith@nursery.com",
+      "phone": "555-5678"
+    },
+    {
+      "id": 3,
+      "name": "Cathy Lee",
+      "role": "Sales Associate",
+      "experience_years": 2,
+      "email": "cathy.lee@nursery.com",
+      "phone": "555-8765"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customer_name": "John Doe",
+      "email": "john.doe@example.com",
+      "order_date": "2024-09-15",
+      "items": [
+        {
+          "plant_id": 1,
+          "quantity": 2
+        },
+        {
+          "plant_id": 3,
+          "quantity": 1
+        }
+      ],
+      "total_amount": 41.97,
+      "status": "Shipped"
+    },
+    {
+      "id": 2,
+      "customer_name": "Sarah Connor",
+      "email": "sarah.connor@example.com",
+      "order_date": "2024-09-18",
+      "items": [
+        {
+          "plant_id": 2,
+          "quantity": 1
+        }
+      ],
+      "total_amount": 39.99,
+      "status": "Processing"
+    }
+  ]
+}

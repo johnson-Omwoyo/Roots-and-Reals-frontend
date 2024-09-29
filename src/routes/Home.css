@@ -1,0 +1,55 @@
+
+.me-home{
+  margin-top: 120px;
+}
+.primary {
+  background-color: #e56b30;
+}
+.secondary {
+  background-color: #4a7c2d;
+}
+.accent {
+  background-color: #f9e4b7;
+}
+.background {
+  background-color: #f5f5dc;
+}
+.first-div {
+  background: linear-gradient(to top, #f5f5dc, #ffffffff);
+}
+.first-div p {
+  font-weight: 600;
+
+  font-family: "Raleway";
+  font-size: 17px;
+  line-height: 1.8;
+}
+.first-div h1 {
+  font-family: "Lora";
+  font-weight: 700;
+}
+.second-div p {
+  font-weight: 500;
+  font-family: "Raleway";
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.second-div h1 {
+  font-family: "Lora";
+  font-weight: 700;
+}
+.third-div p {
+  font-weight: 600;
+
+  font-family: "Raleway";
+  font-size: 17px;
+  line-height: 1.8;
+}
+.third-div h1 {
+  font-family: "Lora";
+  font-weight: 700;
+}
+.third-div {
+  background: linear-gradient(to right, #f5f5dc, white);
+}

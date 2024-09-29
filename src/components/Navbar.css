@@ -1,0 +1,35 @@
+.top {
+  background-color: white;
+}
+h1 {
+  font-family: "Lora";
+}
+.currency {
+  font-size: large;
+  max-width: max-content;
+  cursor: pointer;
+  transition: background, 0.8s;
+}
+.currency:hover {
+  background: #f5f5dc;
+}
+.navbar-brand img {
+  height: 74px;
+}
+.mx-md-4 {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 14px;
+}
+.nav-link {
+  opacity: 0.75;
+  transition: all, 0.3s;
+}
+.nav-link:hover {
+  opacity: 1;
+}
+.selected {
+  font-weight: 800;
+  opacity: 1;
+  text-decoration: underline;
+}

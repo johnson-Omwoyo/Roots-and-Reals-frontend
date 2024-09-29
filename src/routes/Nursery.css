@@ -1,0 +1,71 @@
+.header {
+  background: #4a7c2d;
+}
+.header h1 {
+  color: white;
+  font-family: "Lora";
+}
+.header p {
+  color: rgb(241, 240, 240);
+  font-weight: 200;
+  font-family: "Raleway";
+}
+.tree-name {
+  color: #4a7c2d;
+  font-weight: 500;
+  font-size: 16px;
+}
+.main-container {
+  background: #f5f5dc;
+}
+.cost {
+  color: #4a7c2d;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: -10px;
+}
+.category {
+  color: rgb(95, 94, 94);
+  font-size: 14px;
+}
+.product:hover {
+  cursor: pointer;
+}
+.card-img-top {
+  position: relative;
+}
+.view {
+  position: absolute;
+  top: 12px;
+}
+@media (min-width: 540px) {
+  .btn-on-product {
+    background-color: white;
+    border-color: #f5f5dc;
+    opacity: 0;
+    transition: all, 0.3s;
+    color: rgb(90, 89, 89);
+  }
+}
+.btn-on-product:hover {
+  background-color: #4a7c2d;
+  color: #f5f5dc;
+}
+.product:hover .btn-on-product {
+  opacity: 1;
+}
+.button-div {
+  position: relative;
+}
+.button-hover {
+  position: absolute;
+  top: 22px;
+  right: 0;
+  background: #807f7f;
+  color: white;
+  opacity: 0;
+  transition: all, 0.3s;
+}
+.btn-on-product:hover + .button-hover {
+  opacity: 0.9;
+}

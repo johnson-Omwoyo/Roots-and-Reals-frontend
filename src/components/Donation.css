@@ -1,0 +1,11 @@
+.donate {
+  background: #4a7c2d;
+  font-size: larger;
+  color: aliceblue;
+  transition: all, 0.3s;
+}
+.donate:hover {
+  opacity: 0.7;
+  background: #4a7c2d;
+  color: aliceblue;
+}

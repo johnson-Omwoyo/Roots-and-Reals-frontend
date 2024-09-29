@@ -1,0 +1,8 @@
+.overlay-content {
+  text-align: center; /* Centers the text */
+  backdrop-filter: blur(10px);
+  background-color: #c7c797;
+}
+input {
+  border-color: aqua;
+}

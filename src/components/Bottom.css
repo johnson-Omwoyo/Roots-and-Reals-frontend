@@ -1,0 +1,13 @@
+.row1 {
+  background: linear-gradient(to bottom, #f3824a, white);
+}
+.bottoms h2 {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
+  font-size-adjust: initial;
+  text-decoration:underline;
+}
+li {
+  list-style-type: none;
+}
