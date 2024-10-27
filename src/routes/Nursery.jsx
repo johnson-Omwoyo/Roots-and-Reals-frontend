@@ -36,7 +36,7 @@ function Nursery() {
               {data &&
                 data.map((plant) => (
                   <div className="col-6 col-md-3 product ">
-                    <div className="" style={{ width: "12rem" }}>
+                    <div className="" >
                       <img
                         src="https://images.unsplash.com/photo-1632230151484-ea0ab9ca0f49?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNlZWRsaW5nc3xlbnwwfHwwfHx8MA%3D%3D"
                         className=" img-fluid rounded px-2"
