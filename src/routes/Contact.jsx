@@ -10,7 +10,7 @@ function Contact() {
         </div>
       </div>
       <div className="row">
-        <div className="col only p-5">
+        <div className="col only p-md-5 m-0">
           <div class="overlay-content container md-rounded  p-5">
             <div className="row">
               <div className="col-12 col-md-6 d-flex align-items-center">
