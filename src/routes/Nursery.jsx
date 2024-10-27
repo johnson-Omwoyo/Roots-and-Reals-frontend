@@ -1,21 +1,22 @@
 import React, { useEffect, useState } from "react";
 import "./Nursery.css";
 function Nursery() {
-  const plantsUrl = "http://localhost:8000/plants";
+  const plantsUrl =
+    "https://gist.githubusercontent.com/johnson-Omwoyo/99ab33eb99dc74be4696c1ff7f8a21b0/raw/b45ad67bdbf7bfa1b6284e03fd859d1c41bcadff/rootsandrealms.json";
   const [data, setData] = useState([]);
   useEffect(() => {
     const getData = async () => {
       try {
         const response = await fetch(plantsUrl);
         const meData = await response.json();
-        setData(meData);
+        setData(meData.plants);
       } catch (error) {
         console.error(error);
       }
     };
     getData();
   }, []);
-  console.log(data);
+  console.log(data.plants);
 
   return (
     <div className="container-fluid main-container">
